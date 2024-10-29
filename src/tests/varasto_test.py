@@ -80,7 +80,7 @@ class TestVarasto(unittest.TestCase):
     def test_virheellinen_ottaminen_negatiivisella_arvolla(self):
         otettu = self.varasto.ota_varastosta(-5)
 
-        self.assertAlmostEqual(self.varasto.saldo, -5)
+        self.assertAlmostEqual(self.varasto.saldo, 0)
         self.assertAlmostEqual(otettu, 0)
 
     def test_str_toimii_oikein(self):
