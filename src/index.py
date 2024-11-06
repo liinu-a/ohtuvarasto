@@ -5,6 +5,8 @@ def main():
     mehua = Varasto(100.0)
     olutta = Varasto(100.0, 20.2)
 
+    # Test Pylint, this line is too looooooooooooooooooooooooooooooooooooooooooong
+
     print(f'''Luonnin jälkeen:
 Mehuvarasto: {mehua}
 Olutvarasto: {olutta}
